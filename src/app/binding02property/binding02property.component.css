@@ -1,0 +1,148 @@
+.block{
+    margin-right: 27%;
+    margin-left: 20%;
+    display: flex;
+    border: 1px solid #adacb0;
+    height: 900px;
+}
+
+.first-block{
+   
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.second-block{
+   width: 500px;
+  
+}
+
+.image-container {
+    margin-bottom: 10%; 
+    width: 200px; 
+    height: 200px; 
+    overflow: hidden; 
+    border-radius: 50%; 
+}
+
+.round-image {
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+   
+}
+
+.first-block-inform {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 35%;
+}
+
+.second-block-inform {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 35%;
+}
+
+div{
+    font-family: Podkova;
+}
+
+.inform{
+    background-color: #383740;
+    color: #f4e5d9; 
+    padding: 3%;
+    width: 230px;
+}
+
+.AboutMeText {
+    font-size: small;
+    padding-left: 35px;
+    padding-right: 30px;
+    padding-top: 10px;
+    color: #383740; 
+}
+
+.AboutMeText02{
+    font-size: small;
+    padding-top: 10px;
+    color: #383740; 
+    margin-left: 10px;
+}
+
+.Name-block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #383740; 
+    color: #f4e5d9; 
+    height: 25%;
+}
+
+.Name-text{
+    font-size: 25px;
+}
+
+.New-inform-block{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.first-new-inform-block{
+    background-color: #383740; 
+    color: #f4e5d9; 
+    width: 400px;
+    padding: 2%;
+    margin-top: 6%;
+}
+
+
+.back,
+.front{
+    margin-left: -150px;
+}
+
+.education{
+    margin-left: -30px;
+}
+
+.SkillsBlock{
+    padding-left: 11%;
+    padding-right: 10%;
+}
+
+.bt01{
+   background-color: #d7a35d;
+   height: 15px;
+   width: 15px;
+}
+
+.bt02{
+    background-color: red;
+    height: 15px;
+    width: 15px;
+ }
+ 
+ 
+.bt03{
+    background-color: yellow;
+    height: 15px;
+    width: 15px;
+ }
+
+ 
+.bt04{
+    background-color: gold;
+    height: 15px;
+    width: 15px;
+ }
+ 
+ 
+ 
+ 

@@ -1,0 +1,57 @@
+<div class="block">
+    <div class="first-block" [style.background-color] = "color">
+        <div class="image-container">
+            <img src="{{PhotoImg}}" alt="No img" class="round-image">
+        </div>
+        <div class="first-block-inform">
+           <div class="inform">{{FirstText}}</div>
+           <div [innerHTML]="AboutMe" class="AboutMeText"></div>        
+        </div>
+        <div class="second-block-inform">
+            <div class="inform">{{AwardsAndAchievements}}</div> 
+            <div [innerHTML]="Awards01" class="AboutMeText02"></div> 
+            <div [innerHTML]="Awards02" class="AboutMeText02"></div> 
+            <div [innerHTML]="Awards03" class="AboutMeText02"></div>        
+         </div>
+         <div class="second-block-inform">
+            <div class="inform">{{ContactMe}}</div>
+            <div [innerHTML]="Phone" class="AboutMeText02"></div> 
+            <div [innerHTML]="Email" class="AboutMeText02"></div> 
+            <div [innerHTML]="City" class="AboutMeText02"></div>        
+         </div>
+    </div>
+    <div class="second-block">
+        <div class="Name-block">
+            <p class="Name-text">Шевцов Александр</p>
+            <p style="color: #f0ebe7">Разработчик программного обеспечения</p>
+        </div>
+        <div class="New-inform-block">
+            <div class="first-new-inform-block">{{Experience}}</div>
+            <div class="front">
+                <h3>frontend developer | 2021-2024</h3>
+                <p>2 года работы в компании Scroot</p>
+                <p> 1 год работы в компании Microsoft</p>
+            </div>
+            <div class="back">
+                <h3>{{BackIndorm}}</h3>
+                <p>{{GoogleWork}}</p>
+                <p>{{TeslaWork}}</p>
+            </div>
+            <div class="first-new-inform-block">{{Education}}</div>
+            <div class="education">
+                <p>{{SchoolEducation}}</p>
+                <p>{{UniversityEducation}}</p>
+            </div>
+            <div class="first-new-inform-block">{{Skills}}</div>
+            <div class="SkillsBlock">
+                <p>{{SkillsText}}</p>
+            </div>
+            <div>
+               <button class="bt01" (click) = "ColorSummer('#d7a35d')"></button>
+               <button class="bt02" (click) = "ColorSummer('red')"></button>
+               <button class="bt03" (click) = "ColorSummer('yellow')"></button>
+               <button class="bt04" (click) = "ColorSummer('gold')"></button>
+            </div>
+        </div>
+    </div>
+</div>
